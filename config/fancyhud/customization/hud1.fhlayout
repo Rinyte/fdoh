@@ -80,12 +80,12 @@ customization {
   path = config/fancyhud/images/crosshair/crosshairrunning.png
   orientation = mid-centered
   x = 0
-  width = 60
+  width = 80
   action = addtexture
   actionid = a958a672-5b2b-41de-9c78-797987eeb4e31626319843537
   y = 0
   vr:showif:playerisrunning = true
-  height = 60
+  height = 80
 }
 
 customization {
@@ -219,7 +219,7 @@ customization {
   orientation = bottom-right
   x = -3
   width = 40
-  y = -48
+  y = -52
   action = addcustomhealthbar
   height = 79
   direction = up
@@ -231,7 +231,7 @@ customization {
 customization {
   vr:showif:creative = false
   orientation = bottom-right
-  x = -48
+  x = -65
   width = 10
   y = -7
   action = addcustomfoodbar
@@ -246,9 +246,9 @@ customization {
 customization {
   orientation = bottom-right
   maxarmor = 20
-  x = -48
+  x = -79
   width = 10
-  y = -52
+  y = -7
   action = addcustomarmorbar
   hidewhenempty = true
   height = 40
@@ -262,7 +262,7 @@ customization {
   x = -14
   action = addmirroredplayer
   actionid = d290202c-ceba-4b32-8777-30dc36c87a1f1626229416636
-  y = -57
+  y = -61
   scale = 30.0
   rotateplayer = true
   headrotationy = 0.0

@@ -25,7 +25,7 @@
 	"Void Fog Density" = 0.3
 	#Overworld Fog Density
 	#Range: 0.001 ~ 0.5
-	"Overworld Fog Density" = 0.0215
+	"Overworld Fog Density" = 0.0346575796
 	#Readds the void particles that was removed in 1.8
 	"Enable Void Particles" = false
 	#Readds the void fog that was removed in 1.8
