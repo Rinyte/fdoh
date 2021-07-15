@@ -54,9 +54,7 @@ customization {
 
 customization {
   visible = false
-  x = 0
   action = editcrosshair
-  y = 0
 }
 
 customization {
@@ -64,6 +62,30 @@ customization {
   x = -84
   action = editexperiencebar
   y = -33
+}
+
+customization {
+  path = config/fancyhud/images/crosshair/crosshair.png
+  orientation = mid-centered
+  x = 0
+  width = 40
+  action = addtexture
+  actionid = 8ffc85b1-ef07-4623-ac03-05f4269134861626319782373
+  y = 0
+  vr:showif:playerisrunning = false
+  height = 40
+}
+
+customization {
+  path = config/fancyhud/images/crosshair/crosshairrunning.png
+  orientation = mid-centered
+  x = 0
+  width = 60
+  action = addtexture
+  actionid = a958a672-5b2b-41de-9c78-797987eeb4e31626319843537
+  y = 0
+  vr:showif:playerisrunning = true
+  height = 60
 }
 
 customization {
@@ -259,29 +281,5 @@ customization {
   direction = right
   barcolor = #7eff47
   backgroundcolor = #5c5c5c80
-}
-
-customization {
-  path = config/fancyhud/images/crosshair/crosshairrunning.png
-  orientation = mid-centered
-  x = 0
-  width = 60
-  action = addtexture
-  actionid = a958a672-5b2b-41de-9c78-797987eeb4e31626319843537
-  y = 0
-  vr:showif:playerisrunning = true
-  height = 60
-}
-
-customization {
-  path = config/fancyhud/images/crosshair/crosshair.png
-  orientation = mid-centered
-  x = 0
-  width = 40
-  action = addtexture
-  actionid = 8ffc85b1-ef07-4623-ac03-05f4269134861626319782373
-  y = 0
-  vr:showif:playerisrunning = false
-  height = 40
 }
 
