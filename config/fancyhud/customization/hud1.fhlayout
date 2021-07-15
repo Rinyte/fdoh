@@ -1,0 +1,287 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  action = edithotbar
+  y = 2
+}
+
+customization {
+  visible = false
+  x = -50
+  action = editplayerhealthbar
+  y = -29
+}
+
+customization {
+  visible = false
+  x = -228
+  action = editplayerfoodbar
+  y = -38
+}
+
+customization {
+  visible = false
+  x = -228
+  action = editarmorbar
+  y = -61
+}
+
+customization {
+  x = -50
+  action = editairbar
+  y = -30
+  alignment = left
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  action = editselecteditemname
+  y = -42
+}
+
+customization {
+  x = -3
+  action = editsidebar
+  y = -1
+}
+
+customization {
+  visible = false
+  x = 0
+  action = editcrosshair
+  y = 0
+}
+
+customization {
+  visible = false
+  x = -84
+  action = editexperiencebar
+  y = -33
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = e4748a21-4ffd-49c9-bf26-08df040723d21626229041368
+  y = -5
+  scale = 2.0
+  slot = 0
+  vr:showif:activeslot = true
+  vr:value:activeslot = 0
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = 546cd1cc-bdcb-494d-96ef-c916e07e1cef1626229106818
+  y = -5
+  scale = 2.0
+  slot = 1
+  vr:showif:activeslot = true
+  vr:value:activeslot = 1
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = a25d6835-3570-4046-8bc3-483b9df7f97b1626229140683
+  y = -5
+  scale = 2.0
+  slot = 2
+  vr:showif:activeslot = true
+  vr:value:activeslot = 2
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = cfe27dfc-d088-4348-b118-7602a797c7251626229356685
+  y = -5
+  scale = 2.0
+  slot = 3
+  vr:showif:activeslot = true
+  vr:value:activeslot = 3
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = f24d5aa1-b537-42a4-a61a-15d7a58d8f561626230417205
+  y = -5
+  scale = 2.0
+  slot = 4
+  vr:showif:activeslot = true
+  vr:value:activeslot = 4
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = 2a0b3608-0e4b-4023-9dc1-9f8645e4a3c11626230440085
+  y = -5
+  scale = 2.0
+  slot = 5
+  vr:showif:activeslot = true
+  vr:value:activeslot = 5
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = 338655e6-3330-4c51-929d-b053193e30311626230449852
+  y = -5
+  scale = 2.0
+  slot = 6
+  vr:showif:activeslot = true
+  vr:value:activeslot = 6
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = 67fcbd59-c22f-46ac-b326-74c176bafab41626230459335
+  y = -5
+  scale = 2.0
+  slot = 7
+  vr:showif:activeslot = true
+  vr:value:activeslot = 7
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -6
+  action = additemstack
+  actionid = b3a4a146-ade7-4b22-9ed2-ee6b92a3a4001626230470668
+  y = -5
+  scale = 2.0
+  slot = 8
+  vr:showif:activeslot = true
+  vr:value:activeslot = 8
+}
+
+customization {
+  vr:showif:creative = false
+  orientation = bottom-right
+  x = -3
+  width = 40
+  y = -48
+  action = addcustomhealthbar
+  height = 79
+  direction = up
+  barcolor = #850200
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = false
+}
+
+customization {
+  vr:showif:creative = false
+  orientation = bottom-right
+  x = -48
+  width = 10
+  y = -7
+  action = addcustomfoodbar
+  maxfood = 20
+  height = 40
+  direction = up
+  barcolor = #f0cc00
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = false
+}
+
+customization {
+  orientation = bottom-right
+  maxarmor = 20
+  x = -48
+  width = 10
+  y = -52
+  action = addcustomarmorbar
+  hidewhenempty = true
+  height = 40
+  direction = up
+  barcolor = #adadad
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-right
+  x = -14
+  action = addmirroredplayer
+  actionid = d290202c-ceba-4b32-8777-30dc36c87a1f1626229416636
+  y = -57
+  scale = 30.0
+  rotateplayer = true
+  headrotationy = 0.0
+  headrotationx = 180.0
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  width = 180
+  y = -22
+  action = addcustomexpbar
+  height = 3
+  direction = right
+  barcolor = #7eff47
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = config/fancyhud/images/crosshair/crosshairrunning.png
+  orientation = mid-centered
+  x = 0
+  width = 60
+  action = addtexture
+  actionid = a958a672-5b2b-41de-9c78-797987eeb4e31626319843537
+  y = 0
+  vr:showif:playerisrunning = true
+  height = 60
+}
+
+customization {
+  path = config/fancyhud/images/crosshair/crosshair.png
+  orientation = mid-centered
+  x = 0
+  width = 40
+  action = addtexture
+  actionid = 8ffc85b1-ef07-4623-ac03-05f4269134861626319782373
+  y = 0
+  vr:showif:playerisrunning = false
+  height = 40
+}
+
