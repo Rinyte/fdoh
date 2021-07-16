@@ -1,0 +1,10 @@
+minecraftinstance.json
+.curseclient
+saves
+cachedImages
+.mixin.out
+journeymap
+logs
+usercache.json
+usernamecache.json
+crash-reports

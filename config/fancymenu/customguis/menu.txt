@@ -1,3 +1,0 @@
-identifier = menu
-title = 
-allowesc = true
