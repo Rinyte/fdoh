@@ -8,7 +8,7 @@
 	#Range: -1.0 ~ 1.0
 	"Fire Overlay Offset" = -0.25
 	#Disable the fire overlay when you're burning
-	"Disable Fire Overlay" = true
+	"Disable Fire Overlay" = false
 	#Creative Mode Always Removes Fog
 	"Creative Overrides" = true
 

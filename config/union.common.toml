@@ -7,7 +7,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: Debug" = true
+	"Boolean: Debug" = false
 
 ["Test Group"]
 	#
