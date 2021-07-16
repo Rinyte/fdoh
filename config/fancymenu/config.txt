@@ -24,8 +24,8 @@ B:showcustomizationbuttons = 'false';
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
+B:hidelogo = 'true';
+B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'true';
 
 
