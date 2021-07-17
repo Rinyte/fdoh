@@ -92,7 +92,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = e4748a21-4ffd-49c9-bf26-08df040723d21626229041368
   y = -5
@@ -106,7 +106,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = 546cd1cc-bdcb-494d-96ef-c916e07e1cef1626229106818
   y = -5
@@ -120,7 +120,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = a25d6835-3570-4046-8bc3-483b9df7f97b1626229140683
   y = -5
@@ -134,7 +134,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = cfe27dfc-d088-4348-b118-7602a797c7251626229356685
   y = -5
@@ -148,7 +148,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = f24d5aa1-b537-42a4-a61a-15d7a58d8f561626230417205
   y = -5
@@ -162,7 +162,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = 2a0b3608-0e4b-4023-9dc1-9f8645e4a3c11626230440085
   y = -5
@@ -176,7 +176,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = 338655e6-3330-4c51-929d-b053193e30311626230449852
   y = -5
@@ -190,7 +190,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = 67fcbd59-c22f-46ac-b326-74c176bafab41626230459335
   y = -5
@@ -204,7 +204,7 @@ customization {
   renderstacksize = true
   orientation = bottom-right
   renderdurability = true
-  x = -6
+  x = -2
   action = additemstack
   actionid = b3a4a146-ade7-4b22-9ed2-ee6b92a3a4001626230470668
   y = -5
@@ -225,18 +225,18 @@ customization {
   direction = up
   barcolor = #850200
   backgroundcolor = #5c5c5c80
-  hidewhenfull = false
+  hidewhenfull = true
 }
 
 customization {
   vr:showif:creative = false
   orientation = bottom-right
-  x = -65
+  x = -64
   width = 10
-  y = -7
+  y = -5
   action = addcustomfoodbar
   maxfood = 20
-  height = 40
+  height = 70
   direction = up
   barcolor = #f0cc00
   backgroundcolor = #5c5c5c80
@@ -248,10 +248,10 @@ customization {
   maxarmor = 20
   x = -79
   width = 10
-  y = -7
+  y = -5
   action = addcustomarmorbar
   hidewhenempty = true
-  height = 40
+  height = 50
   direction = up
   barcolor = #adadad
   backgroundcolor = #5c5c5c80
@@ -281,5 +281,19 @@ customization {
   direction = right
   barcolor = #7eff47
   backgroundcolor = #5c5c5c80
+}
+
+customization {
+  vr:showif:creative = false
+  orientation = bottom-right
+  x = -48
+  width = 10
+  y = -5
+  action = addcustomhealthbar
+  height = 90
+  direction = up
+  barcolor = #850200
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = false
 }
 
