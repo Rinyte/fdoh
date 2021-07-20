@@ -30,7 +30,7 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Last Days of Humanity Version 1.4.2
+  value = Last Days of Humanity Version 1.5
 }
 
 customization {
