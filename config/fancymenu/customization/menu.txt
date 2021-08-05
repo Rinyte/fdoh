@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  identifier = menu2
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -9,66 +9,38 @@ customization-meta {
 }
 
 customization {
-  orientation = bottom-left
+  path = bg.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = bottom-centered
   shadow = true
   multiline = false
-  x = 0
+  x = -52
   action = addwebtext
   actionid = d6ce8300-6ae8-4bd4-b4b3-2387b49930211626399318639
-  y = -23
+  y = -24
   scale = 1.0
   alignment = left
   url = https://github.com/Rinyte/ldoh/blob/main/version.txt
 }
 
 customization {
-  orientation = bottom-left
+  orientation = bottom-centered
   shadow = true
-  x = 0
+  x = -86
   action = addtext
   actionid = 8b30db3a-37e0-4bfe-98b3-2785facc4f1d1626399364317
-  y = -12
+  y = -9
   scale = 1.0
   alignment = left
-  value = Last Days of Humanity Version 1.5
-}
-
-customization {
-  identifier = %id=400322%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = 17
-}
-
-customization {
-  identifier = %id=400322%
-  width = 98
-  action = resizebutton
-  height = 20
+  value = Last Days of Humanity Version 1.6
 }
 
 customization {
   identifier = %id=400298%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = -5
-}
-
-customization {
-  identifier = %id=400298%
-  width = 98
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = 39
+  action = hidebutton
 }
 
 customization {
@@ -83,47 +55,22 @@ customization {
 
 customization {
   identifier = %id=604382%
-  orientation = mid-centered
-  x = 29
-  action = movebutton
-  y = 61
+  action = hidebutton
 }
 
 customization {
   identifier = %id=400382%
-  orientation = mid-centered
-  x = -27
-  action = movebutton
-  y = 61
-}
-
-customization {
-  identifier = %id=400382%
-  width = 54
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttonlabel
-  value = Options
+  action = hidebutton
 }
 
 customization {
   identifier = %id=502382%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = 83
+  action = hidebutton
 }
 
 customization {
   identifier = %id=376382%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = 61
+  action = hidebutton
 }
 
 customization {
@@ -139,6 +86,96 @@ customization {
 
 customization {
   identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -50
+  width = 100
+  actionid = d36e0a96-b406-4f29-8277-6623283f90cb1626771655829
+  action = addbutton
+  y = -44
+  backgroundhovered = config/fancymenu/images/menu/lastdays.png
+  label = 
+  backgroundnormal = config/fancymenu/images/menu/lastdays.png
+  value = menu2
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -50
+  width = 100
+  actionid = 09361832-533f-4a9e-92ba-a48445ed497b1626771655838
+  action = addbutton
+  y = -5
+  label = Local Worlds
+  value = net.minecraft.client.gui.screen.WorldSelectionScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -50
+  width = 100
+  actionid = a9227873-a2de-4c89-8b3f-3288df8ac8fd1626771655847
+  action = addbutton
+  y = 17
+  label = Servers
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -49
+  width = 98
+  actionid = 5d81dfc9-0e6a-47ff-890e-b277b2a9e64d1626771655856
+  action = addbutton
+  y = 39
+  label = Mods
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -49
+  width = 98
+  actionid = 3b7efe1b-15ee-4c97-b619-124d97b87dd61626771655865
+  action = addbutton
+  y = 61
+  label = Settings
+  value = net.minecraft.client.gui.screen.OptionsScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = quitgame
+  x = -48
+  width = 96
+  actionid = 92300387-c30f-46d9-a056-91f5269f43181626771655873
+  action = addbutton
+  y = 83
+  label = Quit Game
+  value = 
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
   action = hidebutton
 }
 

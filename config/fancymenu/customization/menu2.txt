@@ -1,0 +1,120 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = bg.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -60
+  width = 120
+  actionid = ae2a69c8-8617-4cd1-a83d-b1031e5c557e1626772125385
+  action = addbutton
+  y = -16
+  backgroundhovered = config/fancymenu/images/menu/lastdays.png
+  label = 
+  backgroundnormal = config/fancymenu/images/menu/lastdays.png
+  value = menu2
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  multiline = false
+  x = 0
+  action = addwebtext
+  actionid = d6ce8300-6ae8-4bd4-b4b3-2387b49930211626399318639
+  y = -23
+  scale = 1.0
+  alignment = left
+  url = https://github.com/Rinyte/ldoh/blob/main/version.txt
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 0
+  action = addtext
+  actionid = 8b30db3a-37e0-4bfe-98b3-2785facc4f1d1626399364317
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Last Days of Humanity Version 1.6
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -60
+  width = 120
+  actionid = 749356f3-c850-45f4-8387-b26e275f733a1626772125405
+  action = addbutton
+  y = -15
+  backgroundhovered = config/fancymenu/images/menu/lastdays.png
+  label = 
+  backgroundnormal = config/fancymenu/images/menu/lastdays.png
+  value = menu2
+  height = 30
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
