@@ -6,25 +6,19 @@
 [common]
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
-	m1928_trigMax = 0
+	ak47_trigMax = 1
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
-	ak47_trigMax = 1
+	microuzi_trigMax = 0
+	#Maximum level of the Trigger Finger enchantment allowed on a weapon
+	#Range: 0 ~ 10
+	ar15hm_trigMax = 0
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
 	m60_trigMax = 0
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
-	dp28_trigMax = 1
-	#Maximum level of the Trigger Finger enchantment allowed on a weapon
-	#Range: 0 ~ 10
-	m16a1_trigMax = 1
-	#Maximum level of the Trigger Finger enchantment allowed on a weapon
-	#Range: 0 ~ 10
 	ak74_trigMax = 1
-	#Maximum level of the Trigger Finger enchantment allowed on a weapon
-	#Range: 0 ~ 10
-	ar15hm_trigMax = 0
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
 	ar15p_trigMax = 0
@@ -33,7 +27,13 @@
 	vector45_trigMax = 0
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
-	microuzi_trigMax = 0
+	m16a1_trigMax = 1
+	#Maximum level of the Trigger Finger enchantment allowed on a weapon
+	#Range: 0 ~ 10
+	m1928_trigMax = 0
+	#Maximum level of the Trigger Finger enchantment allowed on a weapon
+	#Range: 0 ~ 10
+	dp28_trigMax = 1
 	#Maximum level of the Trigger Finger enchantment allowed on a weapon
 	#Range: 0 ~ 10
 	m4_trigMax = 0
